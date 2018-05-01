@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'lemonmilk_lightregular';
+    src: url('lemonmilklight-webfont.woff2') format('woff2'),
+         url('lemonmilklight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+nav {
+    width: 100%;
+    z-index: 10;
+    top: 0px;
+    margin top: 5px;
+}
+
+li {
+    font-family: 'lemonmilk_lightregular';
+    font-size: 24pt;
+    color: #B4B4DA;
+    list-style-type: none;
+}
+p {
+    font-family: 'lemonmilk_lightregular';
+    font-size: 24pt;
+    color: #B4B4DA;
+}
+
+
+body {
+
+}
