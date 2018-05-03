@@ -21,11 +21,12 @@ li {
 }
 p {
     font-family: 'lemonmilk_lightregular';
-    font-size: 24pt;
+    font-size: 17pt;
     color: #B4B4DA;
 }
-
-
-body {
-
+logo {
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    margin top: 5px;
 }
