@@ -19,14 +19,41 @@ li {
     color: #B4B4DA;
     list-style-type: none;
 }
+
+ #navbar{
+    font-family: 'lemonmilk_lightregular';
+    font-size: 24pt;
+    color: #B4B4DA;
+    list-style-type: none;
+    position: fixed;
+    right: 50px;
+    z-index: 10;
+    top: 0px;
+}
+
 p {
     font-family: 'lemonmilk_lightregular';
     font-size: 17pt;
     color: #B4B4DA;
+    margin-top: 100px;
+    left: 85;
+
 }
-logo {
+#logo{
     position: fixed;
     z-index: 10;
     top: 0px;
+    left: 500px;
     margin top: 5px;
+    width: 185px;
+    align-items: center;
+}
+
+#me {
+    position: fixed;
+    left:50px;
+    margin-top: 0px;
+    width: 185px;
+
+
 }
