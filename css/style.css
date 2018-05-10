@@ -54,6 +54,9 @@ p {
     left:50px;
     margin-top: 0px;
     width: 185px;
-
-
+}
+#nav {
+    position:fixed;
+    right: 100;
+    margin-top: 10px;
 }
