@@ -6,11 +6,12 @@
     font-style: normal;
 
 }
+
 nav {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     z-index: 10;
-    top: 0px;
-    margin top: 5px;
 }
 
 li {
@@ -39,7 +40,7 @@ p {
     left: 85;
 
 }
-#logo{
+ #logo{
     position: fixed;
     z-index: 10;
     top: 0px;
@@ -49,14 +50,15 @@ p {
     align-items: center;
 }
 
-#me {
-    position: fixed;
-    left:50px;
-    margin-top: 0px;
-    width: 185px;
+#stories {
+    position:absolute;
+    left: 800px;
+    margin-top: 20px;
+    top: 15px;
 }
-#nav {
-    position:fixed;
-    right: 100;
-    margin-top: 10px;
+#contactinfo {
+    position: absolute;
+    left: 800px;
+    margin-top: 30px;
+    top:15px;
 }
