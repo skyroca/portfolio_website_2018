@@ -20,6 +20,11 @@ li {
     color: #B4B4DA;
     list-style-type: none;
 }
+#photographynavbar {
+    position:absolute;
+    left:50px;
+    top:70px;
+}
 
  #navbar{
     font-family: 'lemonmilk_lightregular';
@@ -31,23 +36,31 @@ li {
     z-index: 10;
     top: 0px;
 }
-
+#aboutme {
+    margin-top:100px;
+}
 p {
     font-family: 'lemonmilk_lightregular';
     font-size: 17pt;
     color: #B4B4DA;
-    margin-top: 100px;
-    left: 85;
+    margin-top: 30px;
+    position:absolute;
+    left: 400px;
 
 }
  #logo{
-    position: fixed;
+    position: absolute;
     z-index: 10;
     top: 0px;
     left: 500px;
     margin top: 5px;
     width: 185px;
     align-items: center;
+    transition: width 0.5s;
+}
+
+#logo:hover{
+    width: 300px;
 }
 
 #stories {
@@ -58,7 +71,139 @@ p {
 }
 #contactinfo {
     position: absolute;
-    left: 800px;
-    margin-top: 30px;
+    left: 750px;
+    margin-top: 85px;
     top:15px;
 }
+
+#photography_ {
+    position:absolute;
+    top:10px;
+}
+
+#photograph_images1{
+    position:absolute;
+    left:5px;
+    top:70px;
+    width:450px;
+    height:300px;
+}
+#photography_images2 {
+    position:absolute;
+    left:460px;
+    top:70px;
+    width:485px;
+    height:300px;
+}
+
+#photographyimages1 {
+    position:absolute;
+    left:860px;
+    top:180px;
+    transform: rotate(270deg);
+    height:400px;
+    width:600px;
+}
+
+#photograph4 {
+    position:absolute;
+   left:390px;
+    top:490px;
+    transform:rotate(90deg);
+    height:445px;
+}
+
+#photograph5 {
+    position:absolute;
+    left:5px;
+    top:380px;
+    width:490px;
+    height:300px;
+}
+
+#photograph6 {
+    position: absolute;
+    left:5px;
+    top:695px;
+    width:490px;
+    height: 350px;
+}
+
+#photograph7 {
+    position: absolute;
+    left:960px;
+    top:690px;
+    width:450px;
+    height: 355px
+}
+#stories_ {
+    position:absolute;
+    top: 10px;
+    left:10px;
+}
+#storytitle1 {
+    position:absolute;
+    margin-top:70px;
+    left:450px;
+}
+#story1 {
+    position: absolute;
+    top: 180px;
+    left:200px;
+}
+#story1_ {
+    position:absolute;
+    top:180px;
+    left:700px;
+}
+#storytitle2 {
+    position:absolute;
+    top:1000px;
+    left: 450px;
+}
+#story2 {
+    position:absolute;
+    top:1100px;
+    left:200px;
+}
+#storytitle3 {
+    position:absolute;
+    top:1950px;
+    left:450px;
+}
+#story3 {
+    position:absolute;
+    top:2050px;
+    left:200px;
+}
+#storytitle4 {
+    position:absolute;
+    top:2500px;
+    left:450px;
+}
+#story4 {
+    position:absolute;
+    top:2600px;
+    left:200px;
+}
+#story4p2 {
+    position:absolute;
+    top:2600px;
+    left:600px;
+}
+#story4p3 {
+    position: absolute;
+    top:3340px;
+    left:200px;
+}
+#story4p4 {
+    position:absolute;
+    top:2930px;
+    left:600px;
+}
+/*
+#photographynavbar {
+    position:absolute;
+    left:50px;
+    top:70px;
+}*/
