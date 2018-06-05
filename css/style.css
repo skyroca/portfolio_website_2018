@@ -37,16 +37,15 @@ li {
     top: 0px;
 }
 #aboutme {
-    margin-top:100px;
-}
-p {
     font-family: 'lemonmilk_lightregular';
     font-size: 17pt;
     color: #B4B4DA;
-    margin-top: 30px;
+    margin-top: 200px;
     position:absolute;
     left: 400px;
-
+}
+#me{
+    margin-top: 200px;
 }
  #logo{
     position: absolute;
@@ -66,7 +65,7 @@ p {
 #stories {
     position:absolute;
     left: 800px;
-    margin-top: 20px;
+    margin-top: 50px;
     top: 15px;
 }
 #contactinfo {
@@ -76,15 +75,15 @@ p {
     top:15px;
 }
 
-#photography_ {
+#photographynavbar{
     position:absolute;
-    top:10px;
+    top:100px;
 }
 
 #photograph_images1{
     position:absolute;
     left:5px;
-    top:70px;
+    top:100px;
     width:450px;
     height:300px;
 }
@@ -138,72 +137,110 @@ p {
 }
 #stories_ {
     position:absolute;
-    top: 10px;
+    top: 50px;
     left:10px;
 }
 #storytitle1 {
     position:absolute;
-    margin-top:70px;
-    left:450px;
+    margin-top:130px;
+    margin-left: -200px;
 }
+
 #story1 {
     position: absolute;
-    top: 180px;
-    left:200px;
+    margin-top: 170px;
+    margin-left:-200px;
+    height:200px;
+    width:610px;
 }
-#story1_ {
-    position:absolute;
-    top:180px;
-    left:700px;
-}
+
 #storytitle2 {
     position:absolute;
-    top:1000px;
-    left: 450px;
+    margin-top: 130px;
+    left: 200px;
+    width:630px;
 }
 #story2 {
     position:absolute;
-    top:1100px;
+    top: 190px;
     left:200px;
+    height:200px;
+    width:700px;
+}
+#story2haiku {
+    position: absolute;
+    margin-top: 280px;
+    left:200px;
+    width:650px;
+}
+#haikulines4-6{
+    position: absolute;
+    margin-top: 350px;
+    left:200px;
+    width:650px;
+}
+#story2haiku2 {
+    position: absolute;
+    top: 420px;
+    left:200px;
+    width:650px;
+}
+#story2haiku3 {
+    position: absolute;
+    top: 520px;
+    left:200px;
+    width:650px;
+}
+#story2haiku4 {
+    position: absolute;
+    top: 740px;
+    left:200px;
+    width:650px;
 }
 #storytitle3 {
     position:absolute;
-    top:1950px;
-    left:450px;
+    top:950px;
+    left:50px;
 }
 #story3 {
     position:absolute;
-    top:2050px;
-    left:200px;
+    top:1000px;
+    margin-left:-370px;
+    width:1550px;
 }
-#storytitle4 {
+#story3p2 {
+   position:absolute;
+    top:1480px;
+    margin-left:-370px;
+    width:1550px;
+}
+#story3p3 {
+   position:absolute;
+    top:1820px;
+    margin-left:-370px;
+    width:1550px;
+}
+#story3p4 {
     position:absolute;
-    top:2500px;
-    left:450px;
+    top:2420px;
+    margin-left:-370px;
+    width:1550px;
 }
-#story4 {
+#story3p5 {
     position:absolute;
-    top:2600px;
-    left:200px;
+    top:2610px;
+    margin-left:-370px;
+    width:1550px;
 }
-#story4p2 {
+#story3p6 {
     position:absolute;
-    top:2600px;
-    left:600px;
+    top:2830px;
+    margin-left:-370px;
+    width:1550px;
 }
-#story4p3 {
-    position: absolute;
-    top:3340px;
-    left:200px;
-}
-#story4p4 {
+#story3p7 {
     position:absolute;
-    top:2930px;
-    left:600px;
+    top:3100px;
+    margin-left:-370px;
+    width:1550px;
 }
-/*
-#photographynavbar {
-    position:absolute;
-    left:50px;
-    top:70px;
-}*/
