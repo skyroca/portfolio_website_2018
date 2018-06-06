@@ -11,7 +11,14 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    z-index: 10;
+}
+#photographynavbar {
+    position: absolute;
+    top:100px;
+}
+#stories {
+    position: absolute;
+    margin-top:250px;
 }
 
 li {
@@ -20,12 +27,7 @@ li {
     color: #B4B4DA;
     list-style-type: none;
 }
-#photographynavbar {
-    position:absolute;
-    left:50px;
-    top:70px;
-}
-
+/*
  #navbar{
     font-family: 'lemonmilk_lightregular';
     font-size: 24pt;
@@ -36,7 +38,8 @@ li {
     z-index: 10;
     top: 0px;
 }
-#aboutme {
+*/
+p {
     font-family: 'lemonmilk_lightregular';
     font-size: 17pt;
     color: #B4B4DA;
@@ -50,7 +53,7 @@ li {
  #logo{
     position: absolute;
     z-index: 10;
-    top: 0px;
+    top: 30px;
     left: 500px;
     margin top: 5px;
     width: 185px;
@@ -61,36 +64,60 @@ li {
 #logo:hover{
     width: 300px;
 }
+#photorgaphynavbar_logo:hover {
+    width:300px;
+}
+#photorgaphynavbar_logo {
+    position: absolute;
+    z-index: 10;
+    left: 500px;
+    top: 20px;
+    width: 185px;
+    align-items: center;
+    transition: width 0.5s;
+}
 
 #stories {
     position:absolute;
     left: 800px;
-    margin-top: 50px;
+    margin-top: 85px;
     top: 15px;
 }
+/*
 #contactinfo {
     position: absolute;
     left: 750px;
     margin-top: 85px;
     top:15px;
 }
+*/
 
-#photographynavbar{
+#photography_navbar {
     position:absolute;
-    top:100px;
+    left:50px;
+    top:70px;
+}
+#photographynavbar_stories {
+    position: absolute;
+    top: 70px;
+   left: 800px;
+}
+#photography_ {
+    position: absolute;
+    top:200px;
 }
 
 #photograph_images1{
     position:absolute;
     left:5px;
-    top:100px;
+    top:290px;
     width:450px;
     height:300px;
 }
 #photography_images2 {
     position:absolute;
     left:460px;
-    top:70px;
+    top:290px;
     width:485px;
     height:300px;
 }
@@ -98,7 +125,7 @@ li {
 #photographyimages1 {
     position:absolute;
     left:860px;
-    top:180px;
+    top:395px;
     transform: rotate(270deg);
     height:400px;
     width:600px;
@@ -107,7 +134,7 @@ li {
 #photograph4 {
     position:absolute;
    left:390px;
-    top:490px;
+    top:707px;
     transform:rotate(90deg);
     height:445px;
 }
@@ -115,7 +142,7 @@ li {
 #photograph5 {
     position:absolute;
     left:5px;
-    top:380px;
+    top:595px;
     width:490px;
     height:300px;
 }
@@ -123,7 +150,7 @@ li {
 #photograph6 {
     position: absolute;
     left:5px;
-    top:695px;
+    top: 900px;
     width:490px;
     height: 350px;
 }
@@ -131,15 +158,35 @@ li {
 #photograph7 {
     position: absolute;
     left:960px;
-    top:690px;
+    top:900px;
     width:450px;
     height: 355px
 }
 #stories_ {
     position:absolute;
-    top: 50px;
+    top: 200px;
     left:10px;
 }
+#storiesnavbar{
+    position: absolute;
+    top: 100px;
+    left:800px;
+}
+#stories_navbar_logo {
+   position: absolute;
+    z-index: 10;
+    left: 500px;
+    top: 20px;
+    width: 185px;
+    align-items: center;
+    transition: width 0.5s;
+}
+#stories_navbar_photography {
+    position:absolute;
+    left:10px;
+    top:100px;
+}
+
 #storytitle1 {
     position:absolute;
     margin-top:130px;
